@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Town Java Coffee House Job Application</title>
+    <link rel="stylesheet" href="mtjava.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>My-Town Java Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="job.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Job Application Form</h2>
+            <div class="container">
+                <form action="#" method="POST">
+                    <div>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div>
+                        <label for="street-address">Street Address:</label>
+                        <input type="text" id="street-address" name="street-address" required>
+                    </div>
+                    <div>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div>
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                    <div>
+                        <label for="zip">Zip Code:</label>
+                        <input type="number" id="zip" name="zip" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments" rows="4" maxlength="200" placeholder="Your comments here (4 lines, 50 characters each)" required></textarea>
+                    </div>
+                    <div class="full-width">
+                        <button type="submit">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 My-Town Java Coffee House. All rights reserved. (R Reyna)</p>
+        </footer>
+    </div>
+</body>
+</html>
